@@ -1,0 +1,20 @@
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+
+# Player saves, provider receipts, model outputs and private diagnostics
+runs/
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+*.log
+
+# Dependencies, generated bundles and local tooling
+node_modules/
+coverage/
+*.zip
+.DS_Store
+.idea/
+.vscode/
